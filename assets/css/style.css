@@ -1,0 +1,213 @@
+body{
+	font-family: 'Georgia', Times, Times New Roman, serif,'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+
+}	
+
+h1{
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 64px;
+background: #4aaaa5;
+color: white;
+width: 250px;
+height: 55px;
+text-align: center;
+padding-top: 15px;
+float: left;
+font-size: 25px;
+
+
+
+}
+
+.links{
+	margin-top: 20px;
+	margin-right: 64px;
+	float: right;
+
+}
+
+.box{
+	width: 100%;
+	
+	/*background-image:assets/images/bg.png;*/
+	background-color: #eee;
+
+	
+	display: block;
+	clear: both;
+	overflow: auto;
+	border-color: #cccccc;
+}
+
+h2{
+	color: #4aaaa5;
+}
+
+h3{
+	color: #4aaaa5;
+}
+
+#AboutMe{
+	background-color: #ffffff;
+	margin-left: 64px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc;
+
+}
+
+
+#photo{
+	float: left;
+	padding: 20px;
+}
+
+p{
+	padding-left: 20px;
+	line-height: 30px;
+	padding: 10px;
+}
+
+#connect{
+	
+	background-color: #ffffff;
+	width: 270px;
+	float: right;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 32px;
+}
+
+#line{
+	border-color: #4aaaa5;
+	background-color: #4aaaa5;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-width: 3px;
+}
+
+#foot{
+	margin-top: 0px;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	height: 50px;
+	width: 100%;
+
+}
+
+a{
+	color: red;
+
+}
+a:hover{
+	color: blue;
+}
+
+
+
+/*CSS for contact.html*/
+#contact{
+	background-color: #ffffff;
+	margin-left: 64px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc;
+
+	
+}
+
+#name{
+	width: 400px;
+	height: 20px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: #E5E8E8;
+}
+
+#name:hover{
+	color: #B2BABB;
+}
+
+#email{
+	width: 400px;
+	height: 20px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: #E5E8E8;
+
+}
+
+#email:hover{
+	color: #B2BABB;
+}
+
+#message{
+	width: 400px;
+	height: 100px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: #E5E8E8;
+}
+
+#message:hover{
+	color: #B2BABB;
+}
+
+#buttom{
+	margin-top:10px;
+	padding-top: 15px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 20px;
+	background-color:#4aaaa5;
+	color: #ffffff;
+	text-align: center; 
+}
+
+/*CSS for portafolio.html*/
+#portafolio{
+	background-color: #ffffff;
+	margin-left: 64px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc;
+
+	
+}
+
+.text1{
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    bottom: 58%;
+    right: 68.45%;
+    white-space: nowrap;
+
+}
+
+.text2{
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    bottom: 58%;
+    right: 45.5%;
+}
