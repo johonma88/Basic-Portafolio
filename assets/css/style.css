@@ -4,7 +4,11 @@ body{
 
 }	
 
-h1{
+header{
+	position: relative;
+}
+
+/*h1{
 margin-top: 0px;
 margin-bottom: 0px;
 margin-left: 64px;
@@ -16,16 +20,37 @@ text-align: center;
 padding-top: 15px;
 float: left;
 font-size: 25px;
+position: absolute;
 
 
+
+}.  */
+
+.name{
+    color: white;
+    background: #4aaaa5;
+    width: 250px;
+    height: 55px;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    top: 29px;
+    right: -63px;
 
 }
 
-.links{
-	margin-top: 20px;
-	margin-right: 64px;
-	float: right;
 
+
+.links {
+    margin-top: 20px;
+    margin-right: 64px;
+    float: left;
+    position: absolute;
+    top: 15px;
+    right: -775px;
+    font-size: 18px;
 }
 
 .box{
@@ -37,7 +62,13 @@ font-size: 25px;
 	clear: both;
 	overflow: auto;
 	border-color: #cccccc;
+	position: relative;
+	top: 30px;
+
 }
+
+
+
 
 h2{
 	color: #4aaaa5;
@@ -49,14 +80,29 @@ h3{
 
 #AboutMe{
 	background-color: #ffffff;
-	margin-left: 64px;
-	margin-top: 32px;
-	margin-bottom: 32px;
+	margin: 64px;
 	width: 650px;
 	float: left;
 	padding-left: 20px;
 	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
 
+
+}
+
+
+#connect{
+	
+	background-color: #ffffff;
+	width: 270px;
+	float:left;
+	padding: 20px;
+	margin: 20px;
+	float:left;
+    top: -19px;
+    right: -360px;
+    position: absolute;
 
 }
 
@@ -72,16 +118,7 @@ p{
 	padding: 10px;
 }
 
-#connect{
-	
-	background-color: #ffffff;
-	width: 270px;
-	float:left;
-	padding: 20px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 32px;
-}
+
 
 #line{
 	border-color: #4aaaa5;
@@ -91,7 +128,7 @@ p{
 	border-width: 3px;
 }
 
-#foot{
+footer{
 	margin-top: 0px;
 	background-color: #666666;
 	color: white;
@@ -113,17 +150,19 @@ a:hover{
 
 
 /*CSS for contact.html*/
+
+	
 #contact{
 	background-color: #ffffff;
-	margin-left: 64px;
-	margin-top: 32px;
-	margin-bottom: 32px;
+	margin: 64px;
 	width: 650px;
 	float: left;
 	padding-left: 20px;
-	border-color: #cccccc;
+	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
 
-	
+
 }
 
 #name{
@@ -176,18 +215,22 @@ a:hover{
 
 }
 
+
+
 /*CSS for portafolio.html*/
+
+
 #portafolio{
 	background-color: #ffffff;
-	margin-left: 64px;
-	margin-top: 32px;
-	margin-bottom: 32px;
+	margin: 64px;
 	width: 650px;
 	float: left;
 	padding-left: 20px;
-	border-color: #cccccc;
+	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
 
-	
+
 }
 
 .folios{
@@ -284,4 +327,20 @@ a:hover{
     text-align: center;
     bottom: 6%;
     right: -0.5%;
+}
+
+.text1:hover{
+	color: black;
+}
+.text2:hover{
+	color: black;
+}
+.text3:hover{
+	color: black;
+}.text4:hover{
+	color: black;
+}.text5:hover{
+	color: black;
+}.text6:hover{
+	color: black;
 }
