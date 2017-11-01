@@ -8,24 +8,6 @@ header{
 	position: relative;
 }
 
-/*h1{
-margin-top: 0px;
-margin-bottom: 0px;
-margin-left: 64px;
-background: #4aaaa5;
-color: white;
-width: 250px;
-height: 55px;
-text-align: center;
-padding-top: 15px;
-float: left;
-font-size: 25px;
-position: absolute;
-
-
-
-}.  */
-
 .name{
     color: white;
     background: #4aaaa5;
@@ -64,6 +46,7 @@ position: absolute;
 	border-color: #cccccc;
 	position: relative;
 	top: 30px;
+
 
 }
 
