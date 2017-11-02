@@ -185,6 +185,7 @@ a:hover{
 	background-color: #EAFAF1;
 	padding-top: 10px;
 	color: grey;
+	align-content: left;
 
 }
 
@@ -194,13 +195,14 @@ a:hover{
 
 #buttom{
 	margin-top:10px;
-	padding-top: 15px;
+	padding-top: 5px;
 	margin-bottom: 10px;
 	width: 80px;
 	height: 35px;
 	background-color:#4aaaa5;
 	color: #ffffff;
-	text-align: left;
+	text-align: center;
+	font-size: 15px;
 	cursor: pointer;
 
 }
